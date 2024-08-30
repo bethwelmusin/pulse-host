@@ -1,0 +1,24 @@
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ECEFF1;
+
+  }
+  
+  /* Ensure the Navbar occupies the full width and height without any spacing */
+  .navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Remove any padding or margin on the AppBar */
+  .MuiAppBar-root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
