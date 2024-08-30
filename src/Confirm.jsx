@@ -1,12 +1,10 @@
 import React from 'react';
 import { Box, Typography, Button, Paper, Divider } from '@mui/material';
-import Navbar from "./Navbar"
 
 
 const Confirmation = () => {
   return (
     <div>
-      <Navbar />
       <Box
       display="flex"
       justifyContent="center"
