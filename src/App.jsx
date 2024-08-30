@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from './Home';
 import "./App.css";
-import Confirmation from './Confirm';
 
 
 const App = () => {
@@ -13,7 +12,7 @@ const App = () => {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/confirm" element={<Confirmation />} /> 
+          {/* <Route path="/confirm" element={<Confirmation />} />  */}
        </Routes>
 
     </>

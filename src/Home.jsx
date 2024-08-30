@@ -1,15 +1,14 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import Grid from '@mui/material/Grid2';
-import ContactForm from "./ContactForm"
-
+import User from './User';
 
 const Home = () => {
   return (
     <>
         <Navbar  />
-        <Grid sx={{mt: 10}}>
-          <ContactForm />
+        <Grid sx={{mt: 4}}>
+          <User />
         </Grid>
        
     </>
