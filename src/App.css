@@ -8,14 +8,12 @@ html, body, #root {
 
   }
   
-  /* Ensure the Navbar occupies the full width and height without any spacing */
   .navbar {
     margin: 0;
     padding: 0;
     width: 100%;
   }
   
-  /* Remove any padding or margin on the AppBar */
   .MuiAppBar-root {
     margin: 0;
     padding: 0;
